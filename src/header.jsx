@@ -1,7 +1,7 @@
 // import { useMediaQuery } from "react-responsive";
 // import logo from "./";
 
-const HeaderNav = (props) => {
+const HeaderNav = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <nav className="justify-between items-center my-10">
