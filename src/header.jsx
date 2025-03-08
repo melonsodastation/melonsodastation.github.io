@@ -22,7 +22,7 @@ const HeaderNav = () => {
         <div className="w-30 h-30 mx-10">
           <img
             className="object-fit justify-center"
-            src="src/assets/bio.jpeg"
+            src="./bio.jpeg"
             alt="Bio photo"
           />
         </div>
