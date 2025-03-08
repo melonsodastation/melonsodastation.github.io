@@ -29,7 +29,7 @@ const HeaderNav = () => {
         <div className="flex flex-col items-start">
           <h1 className="text-3xl">Melonsoda Station</h1>
           <small>melonsodastation@gmail.com</small>
-          <p className="my-5">
+          <p className="my-5 text-left">
             ほんちゃんと申します。政策科学部で都市政策について学んでいます。
           </p>
         </div>

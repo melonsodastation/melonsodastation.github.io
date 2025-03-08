@@ -9,6 +9,9 @@ function App() {
         <HeaderNav />
       </header>
       <main></main>
+      <footer>
+        <p></p>
+      </footer>
     </>
   );
 }
