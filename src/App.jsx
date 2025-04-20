@@ -1,18 +1,22 @@
 import { useState } from "react";
-import "./App.css";
-import HeaderNav from "./header";
+import "./styles/App.css";
+import Header from "./layouts/Header";
+import Footer from "./layouts/Footer";
+import Profile from "./features/Profile";
 
 function App() {
   return (
-    <>
-      <header>
-        <HeaderNav />
+    <div>
+      <header className="bg-green-500">
+        <Header />
       </header>
-      <main></main>
+      <main>
+        <Profile />
+      </main>
       <footer>
-        <p></p>
+        <Footer />
       </footer>
-    </>
+    </div>
   );
 }
 
