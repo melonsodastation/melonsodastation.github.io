@@ -7,7 +7,7 @@ import Profile from "./features/Profile";
 function App() {
   return (
     <div>
-      <header className="bg-green-500">
+      <header>
         <Header />
       </header>
       <main>
